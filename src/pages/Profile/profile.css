@@ -1,0 +1,21 @@
+.profile-card{
+  display:flex !important;
+ justify-content:center;
+  align-items: center;
+
+  ;
+}
+.email-section{
+  background-color: transparent !important;
+}
+/* label{
+color: #7C8492;
+} */
+.TextField{
+color:rgb(185, 174, 174)
+}
+
+.country-dropdown{
+  background-color:transparent !important;
+  border-color:0.5px solid #7C8492;
+}

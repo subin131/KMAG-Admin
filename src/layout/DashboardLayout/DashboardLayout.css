@@ -1,0 +1,102 @@
+.brand {
+  font-size: 32px;
+  color: white !important;
+  font-weight: 500 !important;
+  padding: 15px !important;
+  height: 56px !important;
+  margin-bottom: 20px !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  align-items: center;
+}
+
+.avatar-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  border:none!important;
+}
+.avatar-section h6 {
+  color: white;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.dd-header {
+  background: none !important;
+  border: none !important;
+}
+.dd-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:none !important;
+  border: none !important;
+
+}
+
+.dd-wrapper:hover {
+  background-color: rgba(255, 255, 255, 0) !important;
+ 
+}
+.dd-menu {
+  width: 100%;
+  background: #13171daf !important;
+  margin:0px;
+  
+ 
+}
+
+.dd-item {
+  height:50px;
+  padding: 0px;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.dd-item:hover{
+  background-color:rgb(224, 47, 47);
+  color:white;
+}
+.logout {
+  font-size: 16px;
+  padding: 20px !important;
+  position: fixed !important;
+  bottom: 10px;
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+  width: max-content !important;
+}
+
+.logout:hover {
+  color: rgb(133, 133, 133) !important;
+}
+.profile-image{
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+    border-radius: 50%;
+    margin-right: 10px;
+}

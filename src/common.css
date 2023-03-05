@@ -1,0 +1,83 @@
+.filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid lightgray;
+    padding: 0px 10px 5px 10px;
+}
+
+.filter-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.go-back{
+    color: #0D6EFD;
+}
+
+.go-back:hover{
+    color: #0457d3;
+    text-decoration: underline;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.top-link{
+    width: fit-content;
+    color: rgb(0, 140, 255);
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    /* border: 1px solid red; */
+    align-items: baseline;
+    min-height: 80px;
+}
+.form-field{
+    width: 300px !important;
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid rgb(72, 212, 255);
+}
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.modal-title{
+    width: 100% !important;
+    text-align: center;
+}

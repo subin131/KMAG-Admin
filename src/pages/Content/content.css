@@ -1,0 +1,33 @@
+.select-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-view{
+    max-height: 100px;
+    max-width: 200px;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+}
+
+.featured{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.excerpt-area{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.excerpt-area:focus{
+    outline: none !important;
+    border: 1px solid rgb(99, 165, 196);
+}
+.dropdown-content{
+    width:100%;
+}

@@ -1,0 +1,19 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+
+}
+.data-detail{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    height:8rem;
+    background:rgb(202, 201, 201);
+    
+}

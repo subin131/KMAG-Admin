@@ -1,0 +1,21 @@
+.generate-card{
+    width: max-content;
+    border: 1px solid rgb(179, 179, 179);
+    background-color: #d6d6d6;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: max-content !important;
+}
+.all-btn{
+    background-color:rgb(224, 47, 47);
+   color:white;
+}
+.all-btn:hover{
+    color:white;
+    background: #212429f8 !important;
+}

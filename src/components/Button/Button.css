@@ -1,0 +1,8 @@
+.all-btn{
+          background-color:rgb(224, 47, 47);
+         color:white;
+}
+.all-btn:hover{
+          color:white;
+          background: #212429f8 !important;
+}

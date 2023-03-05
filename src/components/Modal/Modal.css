@@ -1,0 +1,12 @@
+.dropdown-list{
+    position: relative !important;
+    z-index: 9999!important;
+    overflow-y: auto !important;
+    background-color: blue;
+}
+
+.dropdown-body{
+    overflow-y: auto !important;
+    z-index: 1 !important;
+
+}
